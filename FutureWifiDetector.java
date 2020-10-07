@@ -12,6 +12,6 @@ public class FutureWifiDetector {
         System.out.println("Enter your name: ");
         String name = scanner.next();
         System.out.println(name+", The name of your future wife is: "+arrayList.get(random.nextInt(41)));
-
+        scanner.close();
     }
 }
